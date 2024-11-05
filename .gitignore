@@ -1,0 +1,84 @@
+# Environment variables
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Logs and local databases
+*.log
+*.sqlite3
+app/logs/
+
+# Virtual environment
+venv/
+.env/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+nosetests.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook files (optional)
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+.dockerignore
+Dockerfile
+
+# FastAPI specific
+app/models/*.pkl         # Model files (if you prefer to ignore them in source control)
+app/models/*.joblib       # Joblib files for models
+
+# Idea and other IDEs
+.idea/

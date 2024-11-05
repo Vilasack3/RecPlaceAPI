@@ -3,11 +3,15 @@ from pydantic import BaseModel
 import joblib
 import pandas as pd
 
+from app.api.endpoints import collaborative
+
 app = FastAPI()
 
 # Load the entire pipeline (includes scaler and model)
 pipeline = joblib.load("app/models/kmeans_pipeline.pkl")
 
+
+app.include_router(collaborative.router, prefix="/collaborative",tags=["Collaborative Filtering"])
 # Define input data model
 class UserData(BaseModel):
     temple: float

@@ -2,7 +2,7 @@ import random
 import pandas as pd
 import os
 
-directory = "output"
+directory = "data"
 file_name = "random_profiles.csv"
 
 if not os.path.exists(directory):

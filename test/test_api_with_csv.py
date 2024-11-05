@@ -3,7 +3,7 @@ from pprint import pprint
 import pandas as pd
 import requests
 
-file_path = "output/random_profiles.csv"
+file_path = "data/random_profiles.csv"
 df = pd.read_csv(file_path)
 
 url = "http://127.0.0.1:8000/predict_cluster"
