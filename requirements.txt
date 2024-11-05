@@ -1,0 +1,8 @@
+fastapi~=0.115.4
+uvicorn
+pandas~=2.2.3
+scikit-learn
+joblib~=1.4.2
+pydantic~=2.9.2
+requests~=2.32.3
+numpy~=2.1.3
