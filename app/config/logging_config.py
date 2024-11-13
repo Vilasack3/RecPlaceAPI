@@ -1,7 +1,7 @@
 import sys
 from logging.config import dictConfig
 
-from app.core.config import settings  # Import settings to access log level from config
+from app.config.config import settings  # Import settings to access log level from config
 
 
 def setup_logging(log_level: str = settings.log_level):
